@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 5</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend><h1>Sign-up</h1></legend>
+      <form action="" method="post">
+        <label for="firstname">First name:</label>
+        <input
+          type="text"
+          name="firstname"
+          id="firstname"
+          required
+          minlength="3"
+        />
+        <br />
+
+        <label for="lastname">Last name:</label>
+        <input
+          type="text"
+          name="lastname"
+          id="lastname"
+          required
+          minlength="3"
+        />
+        <br />
+
+        <label for="emali">Email:</label>
+        <input type="email" name="email" id="email" required minlength="3" />
+        <br />
+
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          minlength="6"
+          required
+        />
+        <br />
+
+        <label for="cpassword">Confirm Password:</label>
+        <input
+          type="password"
+          name="cpassword"
+          id="cpassword"
+          minlength="6"
+          required
+        />
+        <br />
+
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" required min="0" max="150" />
+        <br />
+
+        Gender :
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male" />
+
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female" />
+        <br />
+
+        <input
+          type="checkbox"
+          name="tc"
+          id="tc"
+          value="terms and conditions"
+          required
+        />
+        <label for="tc">Terms and condition</label> <br />
+        <button type="submit">Submit</button>
+      </form>
+    </fieldset>
+
+    <form action="" method="post">
+      <fieldset>
+        <legend><h1>Sing-In</h1></legend>
+
+        <label for="semail">Email:</label>
+        <input type="email" name="email" id="semail" minlength="3" />
+        <br />
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" minlength="6" />
+        <br />
+
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
